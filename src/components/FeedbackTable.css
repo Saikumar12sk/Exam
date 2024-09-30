@@ -1,0 +1,123 @@
+/* FeedbackTable.css */
+
+/* Date range filter styling */
+.date-range-filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .date-range-filter div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+  
+  .date-range-filter label {
+    font-weight: bold;
+  }
+  
+  .date-range-filter input {
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .feedback-table-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .feedback-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .feedback-table th,
+  .feedback-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .feedback-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  .feedback-table tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .feedback-form-edit {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .feedback-form-edit h3 {
+    margin-top: 0;
+  }
+  
+  .feedback-form-edit .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .feedback-form-edit label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .feedback-form-edit input,
+  .feedback-form-edit textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .feedback-form-edit textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .acknowledge-btn {
+    background-color: #28a745; /* Green for Acknowledge */
+  }
+  
+  .address-btn {
+    background-color: #ffc107; /* Yellow for Address */
+  }
+  
+  .ignore-btn {
+    background-color: #dc3545; /* Red for Ignore */
+  }
+  
+  .view-respond-btn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
